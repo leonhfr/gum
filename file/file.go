@@ -70,6 +70,9 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
 	case tea.WindowSizeMsg:
 		height := msg.Height - m.padding[0] - m.padding[2]
+		if m.header != "" {
+			height -= lipgloss.Height(m.headerStyle.Render(m.header))
+		}
 		if m.showHelp {
 			height -= lipgloss.Height(m.helpView())
 		}
