@@ -8,10 +8,10 @@ import (
 	"github.com/charmbracelet/bubbles/help"
 	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/charmbracelet/gum/cursor"
-	"github.com/charmbracelet/gum/internal/stdin"
-	"github.com/charmbracelet/gum/internal/timeout"
-	"github.com/charmbracelet/gum/style"
+	"github.com/leonhfr/gum/cursor"
+	"github.com/leonhfr/gum/internal/stdin"
+	"github.com/leonhfr/gum/internal/timeout"
+	"github.com/leonhfr/gum/style"
 )
 
 // Run provides a shell script interface for the text input bubble.

@@ -3,7 +3,7 @@ package write
 import (
 	"time"
 
-	"github.com/charmbracelet/gum/style"
+	"github.com/leonhfr/gum/style"
 )
 
 // Options are the customization options for the textarea.

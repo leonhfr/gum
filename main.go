@@ -9,7 +9,7 @@ import (
 
 	"github.com/alecthomas/kong"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/charmbracelet/gum/internal/exit"
+	"github.com/leonhfr/gum/internal/exit"
 	"github.com/charmbracelet/lipgloss"
 	"github.com/muesli/termenv"
 )

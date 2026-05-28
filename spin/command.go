@@ -6,9 +6,9 @@ import (
 
 	"github.com/charmbracelet/bubbles/spinner"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/charmbracelet/gum/internal/exit"
-	"github.com/charmbracelet/gum/internal/timeout"
-	"github.com/charmbracelet/gum/style"
+	"github.com/leonhfr/gum/internal/exit"
+	"github.com/leonhfr/gum/internal/timeout"
+	"github.com/leonhfr/gum/style"
 	"github.com/charmbracelet/x/term"
 )
 

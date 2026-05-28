@@ -11,10 +11,10 @@ import (
 	"github.com/charmbracelet/bubbles/help"
 	"github.com/charmbracelet/bubbles/paginator"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/charmbracelet/gum/internal/stdin"
-	"github.com/charmbracelet/gum/internal/timeout"
-	"github.com/charmbracelet/gum/internal/tty"
-	"github.com/charmbracelet/gum/style"
+	"github.com/leonhfr/gum/internal/stdin"
+	"github.com/leonhfr/gum/internal/timeout"
+	"github.com/leonhfr/gum/internal/tty"
+	"github.com/leonhfr/gum/style"
 	"github.com/charmbracelet/lipgloss"
 )
 

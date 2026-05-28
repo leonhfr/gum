@@ -3,9 +3,9 @@
 <p>
     <a href="https://stuff.charm.sh/gum/nutritional-information.png" target="_blank"><img src="https://stuff.charm.sh/gum/gum.png" alt="Gum Image" width="450" /></a>
     <br><br>
-    <a href="https://github.com/charmbracelet/gum/releases"><img src="https://img.shields.io/github/release/charmbracelet/gum.svg" alt="Latest Release"></a>
-    <a href="https://pkg.go.dev/github.com/charmbracelet/gum?tab=doc"><img src="https://godoc.org/github.com/golang/gddo?status.svg" alt="Go Docs"></a>
-    <a href="https://github.com/charmbracelet/gum/actions"><img src="https://github.com/charmbracelet/gum/workflows/build/badge.svg" alt="Build Status"></a>
+    <a href="https://github.com/leonhfr/gum/releases"><img src="https://img.shields.io/github/release/charmbracelet/gum.svg" alt="Latest Release"></a>
+    <a href="https://pkg.go.dev/github.com/leonhfr/gum?tab=doc"><img src="https://godoc.org/github.com/golang/gddo?status.svg" alt="Go Docs"></a>
+    <a href="https://github.com/leonhfr/gum/actions"><img src="https://github.com/leonhfr/gum/workflows/build/badge.svg" alt="Build Status"></a>
 </p>
 
 A tool for glamorous shell scripts. Leverage the power of
@@ -53,7 +53,7 @@ Confirm before committing:
 gum confirm "Commit changes?" && git commit -m "$SUMMARY" -m "$DESCRIPTION"
 ```
 
-Check out the [complete example](https://github.com/charmbracelet/gum/blob/main/examples/commit.sh) for combining these commands in a single script.
+Check out the [complete example](https://github.com/leonhfr/gum/blob/main/examples/commit.sh) for combining these commands in a single script.
 
 <img alt="Running the ./examples/commit.sh script to commit to git" width="600" src="https://vhs.charm.sh/vhs-7rRq3LsEuJVwhwr0xf6Er7.gif">
 
@@ -137,10 +137,10 @@ Or download it:
 Or just install it with `go`:
 
 ```bash
-go install github.com/charmbracelet/gum@latest
+go install github.com/leonhfr/gum@latest
 ```
 
-[releases]: https://github.com/charmbracelet/gum/releases
+[releases]: https://github.com/leonhfr/gum/releases
 
 ## Commands
 
@@ -318,7 +318,7 @@ gum style \
 	'Bubble Gum (1¢)' 'So sweet and so fresh!'
 ```
 
-<img src="https://github.com/charmbracelet/gum/assets/42545625/67468acf-b3e0-4e78-bd89-360739eb44fa" width="600" alt="Bubble Gum, So sweet and so fresh!" />
+<img src="https://github.com/leonhfr/gum/assets/42545625/67468acf-b3e0-4e78-bd89-360739eb44fa" width="600" alt="Bubble Gum, So sweet and so fresh!" />
 
 ## Join
 
@@ -339,7 +339,7 @@ BUBBLE_GUM=$(gum join "$BUBBLE" "$GUM")
 gum join --align center --vertical "$I_LOVE" "$BUBBLE_GUM"
 ```
 
-<img src="https://github.com/charmbracelet/gum/assets/42545625/68f7a25d-b495-48dd-982a-cee0c8ea5786" width="600" alt="I LOVE Bubble Gum written out in four boxes with double borders around them." />
+<img src="https://github.com/leonhfr/gum/assets/42545625/68f7a25d-b495-48dd-982a-cee0c8ea5786" width="600" alt="I LOVE Bubble Gum written out in four boxes with double borders around them." />
 
 ## Format
 
@@ -366,7 +366,7 @@ For more information on template helpers, see the [Termenv
 docs](https://github.com/muesli/termenv#template-helpers). For a full list of
 named emojis see the [GitHub API](https://api.github.com/emojis).
 
-<img src="https://github.com/charmbracelet/gum/assets/42545625/5cfbb0c8-0022-460d-841b-fec37527ca66" width="300" alt="Running gum format for different types of formats" />
+<img src="https://github.com/leonhfr/gum/assets/42545625/5cfbb0c8-0022-460d-841b-fec37527ca66" width="300" alt="Running gum format for different types of formats" />
 
 ## Log
 
@@ -464,7 +464,7 @@ alias please="gum input --password | sudo -nS"
 
 See [contributing][contribute].
 
-[contribute]: https://github.com/charmbracelet/gum/contribute
+[contribute]: https://github.com/leonhfr/gum/contribute
 
 ## Feedback
 
@@ -476,7 +476,7 @@ We’d love to hear your thoughts on this project. Feel free to drop us a note!
 
 ## License
 
-[MIT](https://github.com/charmbracelet/gum/raw/main/LICENSE)
+[MIT](https://github.com/leonhfr/gum/raw/main/LICENSE)
 
 ---
 

@@ -8,7 +8,7 @@
 #
 # About:
 #   DIYfetch it the shell script template for writing fetch tool
-#   utilizing `gum join` command (https://github.com/charmbracelet/gum#join).
+#   utilizing `gum join` command (https://github.com/leonhfr/gum#join).
 #
 #   This script is written in POSIX-shell for portability
 #   feel free to switch it to any scripting language that you prefer.

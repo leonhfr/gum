@@ -10,7 +10,7 @@ variables:
   main: "."
   scoop_name: charm-gum
   description: "A tool for glamorous shell scripts"
-  github_url: "https://github.com/charmbracelet/gum"
+  github_url: "https://github.com/leonhfr/gum"
   maintainer: "Maas Lalani <maas@charm.sh>"
   brew_commit_author_name: "Maas Lalani"
   brew_commit_author_email: "maas@charm.sh"
