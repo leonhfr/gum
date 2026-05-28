@@ -69,7 +69,9 @@ func (m model) Init() tea.Cmd { return m.filepicker.Init() }
 func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
 	case tea.WindowSizeMsg:
-		height := msg.Height - m.padding[0] - m.padding[2]
+		// filepicker.View renders one blank line beyond its height; reserve it so
+		// bubbletea does not drop the top line (the header) from the render.
+		height := msg.Height - m.padding[0] - m.padding[2] - 1
 		if m.header != "" {
 			height -= lipgloss.Height(m.headerStyle.Render(m.header))
 		}
